@@ -1,0 +1,109 @@
+@charset "UTF-80";
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lobster&family=Protest+Riot&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: rgb(192, 125, 38);
+    color: white;
+    text-align: center;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section {
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: inset 6px 6px  13px 0px black;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.459);
+    text-shadow: 2p 2p 2px black;
+}
+
+#s2 {
+    background-image: url('../imagens/imagem-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-attachment: fixed;
+    
+}
+
+#s2 pre {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+#s4 {
+    color: white;
+    background-image: url('../imagens/imagem-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-attachment: fixed;
+}
+
+#s4 pre {
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+a {
+    color: white;
+    background-color: rgb(54, 53, 50);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(192, 125, 38);
+    transition: .1s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
